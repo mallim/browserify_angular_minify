@@ -1,0 +1,19 @@
+{
+  "name": "browserify_angular_minify",
+  "version": "0.0.1",
+  "authors": [
+    "Ian Lim <mallim.ink@gmail.com>"
+  ],
+  "description": "Browserify recipe for AngularJS + source maps + minification",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.23"
+  }
+}

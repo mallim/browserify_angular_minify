@@ -1,0 +1,19 @@
+{
+  "name": "browserify_angular_minify",
+  "version": "0.0.1",
+  "description": "Browserify recipe for AngularJS + source maps + minification",
+  "author": "Ian Lim <mallim.ink@gmail.com>",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "debowerify"
+    ]
+  },
+  "devDependencies": {
+    "debowerify": "^0.8.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.0.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "minifyify": "^4.1.1"
+  }
+}
